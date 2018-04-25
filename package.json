@@ -1,0 +1,16 @@
+{
+  "name": "oasapihook",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Generador de apis con sincronzacion con webhooks basado en swagger",
+  "main": "index.js",
+  "dependencies": {
+    "swagger-js-codegen": "^1.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Yesid Tabares Amaya",
+  "license": "GPL-3.0"
+}

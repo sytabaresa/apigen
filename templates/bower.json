@@ -1,0 +1,18 @@
+{
+  "name": "{{ (ds "data").repository.name }}",
+  "authors": [
+    "{{ (ds "data").repository.owner.login }}"
+  ],
+  "description": "{{ (ds "data").repository.description }}",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "{{ (ds "data").repository.html_url }}",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+    "index.js"
+  ]
+}
